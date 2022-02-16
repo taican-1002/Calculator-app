@@ -21,7 +21,6 @@ const Calculator = () => {
         const expDiv = expRef.current;
 
         const toggleBtn = document.getElementsByClassName('toggle__theme');
-        console.log(toggleBtn)
         if (item.action === BTN_ACTIONS.THEME) {
             document.body.classList.toggle('dark');
             toggleBtn[0].classList.toggle('active')

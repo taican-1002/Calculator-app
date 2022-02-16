@@ -2,9 +2,14 @@ import './App.css';
 
 import Calculator from './components/calculator/Calculator'
 
+import Title from './Title'
+
 function App() {
     return (
-        <Calculator />
+        <>
+            <Title title='Calculator App'/>
+            <Calculator />
+        </>
     );
 }
 
